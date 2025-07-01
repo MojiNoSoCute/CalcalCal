@@ -1,0 +1,34 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+    .header {
+    font-size: 100px;
+    background-color: #60b863;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.submit_Btn {
+    font-size: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.submit_Btn:hover {
+    background-color: #588653;
+    color: white;
+}
+
+.submit_Btn:active {
+    background-color: #234d24;
+    color: white;
+}
+
