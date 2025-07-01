@@ -1,0 +1,65 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.header {
+    font-size: 100px;
+    background-color: #60b863;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_message {
+    font-size: 60px;
+    color: #333;
+    padding-right: 20px;
+}
+
+.input {  
+    font-size: 50px;
+    width: 630px;
+    border-radius: 5px;
+}
+
+.submit_Btn {
+    font-size: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.submit_Btn:hover {
+    background-color: #588653;
+    color: white;
+}
+
+.submit_Btn:active {
+    background-color: #234d24;
+    color: white;
+}
+
+.result_message {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.select {
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+.message_result {
+    font-size: 50px;
+}
