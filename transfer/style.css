@@ -1,0 +1,46 @@
+.header {
+    font-size: 100px;
+    background-color: #60b863;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.main_message {
+    font-size: 60px;
+    color: #333;
+    padding-right: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {  
+    font-size: 50px;
+    width: 630px;
+    border-radius: 5px;
+}
+
+.select {
+    font-size: 60px;
+    border-radius: 5px;
+
+}
+
+/* .buttton {
+    font-size: 25px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 60px;
+}
+
+.buttton:hover {
+    font-size: 30px;
+    color: white;
+    background-color: #3a833c;
+    padding: 60px;
+} */

@@ -1,0 +1,30 @@
+.header {
+    font-size: 100px;
+    background-color: #60b863;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttton {
+    font-size: 25px;
+    color: white;
+    background-color: #4CAF50;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.buttton:hover {
+    font-size: 30px;
+    color: white;
+    background-color: #3a833c;
+    padding: 60px;
+    border-radius: 5px;
+}
