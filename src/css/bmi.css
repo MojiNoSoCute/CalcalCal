@@ -1,21 +1,40 @@
-.logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 75px;
-    left: 50px;
-    background-color: white;
-    border-radius: 100%;
+.gender_Msg {
+    font-size: 50px;
+    color: #333;
 }
 
-.header {
-    font-size: 100px;
-    background-color: #60b863;
-    padding: 50px;
-    text-align: center;
+.boy_Btn {
+    font-size: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #0888bb;
+    color: white;
+    margin-right: 10px;
+}
+
+.boy_Btn:hover {
+    background-color: #0a6f8f;
+}
+
+.boy_Btn:active {
+    background-color: #084f6f;  
+}
+
+.girl_Btn {
+    font-size: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #ce51a4;
     color: white;
 }
 
+.girl_Btn:hover {
+    background-color: #a03f7f;
+}
+
+.girl_Btn:active {
+    background-color: #7a2c5f;
+}
 
 .main_message {
     font-size: 60px;
@@ -28,9 +47,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
-.select {
-    font-size: 60px;
-    
+.input {  
+    font-size: 50px;
+    width: 630px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
+
+
+
+.result_message {
+    font-size: 50px;
+    margin-top: 20px;
+}
+

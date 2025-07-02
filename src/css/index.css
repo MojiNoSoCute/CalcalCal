@@ -1,38 +1,32 @@
-.logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 75px;
-    left: 50px;
-    background-color: white;
-    border-radius: 100%;
-}
-
-    .header {
-    font-size: 100px;
-    background-color: #60b863;
-    padding: 50px;
-    text-align: center;
-    color: white;
-}
-
-
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .buttton {
     font-size: 25px;
     color: white;
     background-color: #4CAF50;
     padding: 60px;
     border-radius: 50px;
+    border-color: #4CAF50;
+    margin: 10px;;
 }
 
 .buttton:hover {
     font-size: 50px;
     background-color: #3a833c;
+}
 
+.buttton:active {
+    font-size: 50px;
+    background-color: #2a5c2a;
 }

@@ -1,0 +1,49 @@
+<script src="js/cal_eb.js"></script>
+<script src="js/alert.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณหาพื้นที่</title>
+    <link rel="stylesheet" href="css/cal_eb.css">
+    <link rel="stylesheet" href="css/alert.css">
+    <link rel="stylesheet" href="css/share.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" alt="logo" src="https://i.postimg.cc/rwBJXSgY/2136048-feuille-logo-bio-label-eco-icon-vector-isolated-background-gratuit-vectoriel-Edited.png" ></a>
+        <h1 class="header">หาพื้นที่รูปสี่เหลี่ยมผืนผ้า</h1>
+    </header>
+    <main class="container">
+
+        <div class="item">
+            <p class="main_message">ใส่กำลังไฟฟ้า, จำนวนที่ใช้ และระยะเวลา</p>
+        </div>
+
+        <div class="item">
+            <input type="number" class="input" id="power" placeholder="ใส่กำลังไฟฟ้า (วัตต์)">
+            <input type="number" class="input" id="number" placeholder="จำนวนที่ใช้ (เครื่อง)">
+            <input type="number" class="input" id="T" placeholder="ระยะเวลา (ชั่วโมง)">
+        </div>
+
+        <div class="item">
+            <button class="submit_Btn" onclick="calEb()">คำนวณ</button>
+        </div>
+
+        <div class="item">
+            <p class="result_message">ผลลัพธ์: <span id="unit"></span> หน่วย/วัน</p>
+        </div>
+        
+    </main>
+
+    <div class="alert_box" id="alert">
+         <div class="alert_content">
+            <h2 class="alert_head">!!! fail !!!</h2>
+            <p class="alert_message" id="alert_message"><b>ใส่ให้ถูกต้อง</b></p>
+            <button class="alert_Btn" id="OK_Btn">ยู้เยื่อง หวางเกี๊ยบ</button>
+        </div>
+    </div>
+</body>
+</html>
